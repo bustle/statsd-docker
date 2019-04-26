@@ -1,0 +1,9 @@
+{
+  debug: true,
+  flushInterval: process.env.FLUSH_INTERVAL ? parseInt(process.env.FLUSH_INTERVAL) : 10000,
+  backends: ['elasticsearch-statsd-backend'],
+  elasticsearch: {
+    url: process.env.ELASTICSEARCH_URL,
+    shutdownOnStartupError: true
+  }
+}
