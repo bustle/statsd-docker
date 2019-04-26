@@ -6,4 +6,3 @@ EXPOSE 8125/udp
 COPY package.json package-lock.json ./
 RUN npm install
 COPY config ./
-CMD npm start
