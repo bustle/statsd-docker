@@ -1,0 +1,24 @@
+{
+  "name": "statsd-server",
+  "version": "1.0.0",
+  "description": "bustle statsd server",
+  "main": "index.js",
+  "dependencies": {
+    "elasticsearch-statsd-backend": "^1.1.1",
+    "statsd": "^0.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bustle/statsd-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bustle/statsd-server/issues"
+  },
+  "homepage": "https://github.com/bustle/statsd-server#readme"
+}
