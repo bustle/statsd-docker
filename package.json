@@ -1,7 +1,7 @@
 {
-  "name": "statsd-server",
+  "name": "statsd-docker",
   "version": "1.0.0",
-  "description": "bustle statsd server",
+  "description": "bustle statsd dockerized service",
   "main": "index.js",
   "dependencies": {
     "elasticsearch-statsd-backend": "^1.1.1",
@@ -9,16 +9,17 @@
   },
   "devDependencies": {},
   "scripts": {
+    "start": "statsd config",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bustle/statsd-server.git"
+    "url": "git+https://github.com/bustle/statsd-docker.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bustle/statsd-server/issues"
+    "url": "https://github.com/bustle/statsd-docker/issues"
   },
-  "homepage": "https://github.com/bustle/statsd-server#readme"
+  "homepage": "https://github.com/bustle/statsd-docker#readme"
 }
